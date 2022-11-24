@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+body img{
+   border-radius: 10px; 
+}
+
+/* navbar */
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar{
+    padding-top: 5px;
+    background-image: linear-gradient(to right, black, black);
+    text-decoration-color: azure;
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+    background-color: gray;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+ 
+/* banner */
+#banner{
+    position: relative;
+    background-image: linear-gradient(to right, black, black) ;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.decoration{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+.pict{
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.wave{
+    position:absolute;
+    width: 100%;
+    bottom: -118%;
+    left: 0;
+}
+
+#konten{
+    background-color: lightgray;
+    padding-top: 80px;
+    font-family: 'Unna', serif;
+    font-size: 20px;
+}
+
+
+#portfolio{
+    background-color:lightgray;
+    padding-top: 120px;
+    font-family: 'Unna', serif;
+    font-size: 20px;
+}
+
+#carouselExampleFade{
+    font-family: 'Abril Fatface', cursive;
+}
+
+#contact{
+    padding-top: 110px;
+    background-color: lightgray;
+    font-family: 'Unna', serif;
+}
+
+.contact{
+    padding-top: 10px;
+}
+
+#hubungi{
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    width:450px ;
+    height: 250px;
+}
+
+#formulir{
+    border-radius: 10px;
+    border-color: black;
+    padding: 20px;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+}
+
